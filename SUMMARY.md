@@ -55,6 +55,7 @@
 * [⚡Runs](products/run-run-and-sweep-github-files/README.md)
   * [Hyperparameter Sweeps](products/run-run-and-sweep-github-files/sweep-syntax.md)
   * [Script dependencies](products/run-run-and-sweep-github-files/script-dependencies.md)
+  * [Private Repos](products/run-run-and-sweep-github-files/private-repos.md)
   * [Spot Instances](products/run-run-and-sweep-github-files/interruptible-machines.md)
   * [🆕 Auto Resume Experiments](products/run-run-and-sweep-github-files/auto-resume-experiments.md)
   * [Machines](products/run-run-and-sweep-github-files/machines.md)
