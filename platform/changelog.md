@@ -10,14 +10,14 @@ description: What's new and improved in Grid.
 
 ## :warning: February 3, 2022
 
-**Artifacts are not syncing for short-running experiments**
+### **Artifacts are not syncing for short-running experiments**
 
-We've detected a race condition with short-running experiments which may cause artifacts not to be properly synced. We're working on a long-term solution for this, and will be fixed in the coming days. As a workaround, we recommend ensuring your experiments last at least a minute (to be safe), and sleep if needed.
+We've detected a race condition with short-running experiments which may cause artifacts not to be properly synced. We're working on a long-term solution for this, and will be fixed in the coming days. As a workaround, we recommend ensuring your experiments last at least a minute (to be safe), and sleep if needed. **We are working on resolving this issue to be addressed in the next release.**
 
 ## :wrench:January 12, 2022
 
-**CLI version: 0.7.3**\
-\
+### **CLI version: 0.7.3**
+
 A maintenance release has been issued with the following :
 
 * resolves an issue that was causing experiments to remain queued for 1 hour+
