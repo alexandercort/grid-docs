@@ -32,6 +32,5 @@ grid delete experiment experiment_name
 ```
 
 {% hint style="info" %}
-grid delete and grid edit commands for cluster configuration are available if using [custom credential ](../../../platform/upgrades/adding-custom-cloud-credentials.md)
+grid delete and grid edit commands for cluster configuration are available if using [custom credential](../../../platform/custom-cloud-credentials/adding-custom-cloud-credentials.md)
 {% endhint %}
-

@@ -2,11 +2,11 @@
 description: How to integrate Grid with your private Github repos
 ---
 
-# Private Repos
+# Access Private Github Repos
 
 ### Access Private Github Repos
 
-By default you can only access public Github repositories on Grid. To grant read access to your private code navigate to Settings > Integrations > Grant access.
+By default you can only access public Github repositories on Grid. To grant read access to your private code, click on your profile icon from the Grid UI, navigate to Settings > Integrations > Grant access.
 
 ### About private code
 

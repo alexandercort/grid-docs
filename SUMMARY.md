@@ -4,9 +4,11 @@
 
 ## Start Here
 
+* [Getting Started with Grid](start-here/getting-started-with-grid.md)
+* [Viewing Login Credentials](start-here/your-login-credentials.md)
+* [Access Private Github Repos](start-here/access-private-github-repos.md)
 * [Typical workflow (Web user)](start-here/typical-workflow-web-user.md)
 * [Typical workflow (CLI user)](start-here/typical-workflow-cli-user.md)
-* [Private Repos](start-here/private-repos.md)
 
 ## Products
 
@@ -69,6 +71,7 @@
   * [Failed jobs](products/run-run-and-sweep-github-files/failed-jobs.md)
   * [Metrics (charts)](products/run-run-and-sweep-github-files/metrics-charts.md)
   * [FAQ](products/run-run-and-sweep-github-files/faq.md)
+  * [Multi-node training](products/run-run-and-sweep-github-files/multi-node.md)
 
 ## Examples
 
@@ -78,20 +81,17 @@
 
 ## Platform
 
-* [Billing rates](platform/billing-rates.md)
-* [Upgrades](platform/upgrades/README.md)
-  * [Creating a New Cluster](platform/upgrades/adding-custom-cloud-credentials.md)
-  * [Team Collaboration](platform/upgrades/team-collaboration.md)
-* [Early Access Features](platform/about-these-features/README.md)
-  * [Multi-node training](platform/about-these-features/multi-node.md)
-* [Report issues](platform/report-issues/README.md)
-  * [Feature Requests](platform/report-issues/feature-requests.md)
-* [Supporting Workflows](platform/supporting-workflows-1/README.md)
-  * [Keeping track of costs](platform/supporting-workflows-1/monitoring-costs.md)
-  * [Payments and credits](platform/supporting-workflows-1/billing-and-credits.md)
-  * [Viewing login credentials](platform/supporting-workflows-1/your-login-credentials.md)
+* [Billing](platform/billing/README.md)
+  * [Billing rates](platform/billing/billing-rates.md)
+  * [Keeping track of costs](platform/billing/monitoring-costs.md)
+  * [Payments and credits](platform/billing/billing-and-credits.md)
+* [🥳 Changelog](platform/changelog.md)
+* [Collaboration](platform/team-collaboration.md)
+* [Custom Cloud Credentials](platform/custom-cloud-credentials/README.md)
+  * [Cluster Context](platform/custom-cloud-credentials/cluster-context.md)
+  * [Creating a New Cluster](platform/custom-cloud-credentials/adding-custom-cloud-credentials.md)
+* [Report Feedback](platform/report-issues.md)
 * [Tips & Tricks](platform/tips-and-tricks.md)
-* [🥳 Release Updates](platform/changelog.md)
 * [Security & Privacy](platform/security-and-privacy.md)
 * [Single Sign-On (SSO)](platform/sso.md)
 
