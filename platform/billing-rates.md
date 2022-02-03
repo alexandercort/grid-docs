@@ -63,8 +63,8 @@ Here are the prices by machine type _per hour_ when running on Grid cloud (Built
 
 Read more about interruptible machines here
 
-{% content-ref url="../../products/run-run-and-sweep-github-files/interruptible-machines.md" %}
-[interruptible-machines.md](../../products/run-run-and-sweep-github-files/interruptible-machines.md)
+{% content-ref url="../products/run-run-and-sweep-github-files/interruptible-machines.md" %}
+[interruptible-machines.md](../products/run-run-and-sweep-github-files/interruptible-machines.md)
 {% endcontent-ref %}
 
 ## Machine specs
@@ -73,23 +73,23 @@ If you're curious about the machine specs, here's the list.
 
 ### P2 instance types
 
-![](<../../.gitbook/assets/image (99).png>)
+![](<../.gitbook/assets/image (99).png>)
 
 ### P3 instance types
 
-![](<../../.gitbook/assets/image (100).png>)
+![](<../.gitbook/assets/image (100).png>)
 
 ### G4 instance types
 
-![](<../../.gitbook/assets/image (101).png>)
+![](<../.gitbook/assets/image (101).png>)
 
 ### G3 instance types
 
-![](<../../.gitbook/assets/image (102).png>)
+![](<../.gitbook/assets/image (102).png>)
 
 ### T2 instance types
 
-![](<../../.gitbook/assets/image (103).png>)
+![](<../.gitbook/assets/image (103).png>)
 
 Please note: Costs seen in the various screens in product are an estimation
 

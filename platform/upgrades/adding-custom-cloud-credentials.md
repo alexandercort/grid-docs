@@ -287,9 +287,7 @@ It can take some time to provision a new cluster, \~20-30 minutes
 
 ### Step 6: Run your workloads in your new cluster
 
-Recommended way of running workloads in any cluster is by setting the cluster context. Cluster context can be set by 
-every user using the below command. This will make the CLI only see resources in this cluster context. Every actions from
-the CLI from that point onwards will be against this cluster context. More information is availble [here](../../products/global-cli-configs/cli-api/grid-cluster-context.md)
+Recommended way of running workloads in any cluster is by setting the cluster context. Cluster context can be set by every user using the below command. This will make the CLI only see resources in this cluster context. Every actions from the CLI from that point onwards will be against this cluster context. More information is availble [here](../../products/global-cli-configs/cli-api/grid-cluster-context.md)
 
 ```
 grid user set-cluster-context <cluster-name>

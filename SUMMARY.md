@@ -1,12 +1,13 @@
 # Table of contents
 
 * [Grid in 3 minutes](README.md)
+* [🥳 Changelog](changelog.md)
 
 ## Start Here
 
 * [Getting Started with Grid](start-here/getting-started-with-grid.md)
-* [Viewing Login Credentials](start-here/your-login-credentials.md)
-* [Access Private Github Repos](start-here/access-private-github-repos.md)
+* [Viewing Login Credentials](platform/supporting-workflows-1/your-login-credentials.md)
+* [Access Private Github Repos](start-here/private-repos.md)
 * [Typical workflow (Web user)](start-here/typical-workflow-web-user.md)
 * [Typical workflow (CLI user)](start-here/typical-workflow-cli-user.md)
 
@@ -71,7 +72,7 @@
   * [Failed jobs](products/run-run-and-sweep-github-files/failed-jobs.md)
   * [Metrics (charts)](products/run-run-and-sweep-github-files/metrics-charts.md)
   * [FAQ](products/run-run-and-sweep-github-files/faq.md)
-  * [Multi-node training](products/run-run-and-sweep-github-files/multi-node.md)
+  * [Multi-node training](platform/about-these-features/multi-node.md)
 
 ## Examples
 
@@ -82,15 +83,14 @@
 ## Platform
 
 * [Billing](platform/billing/README.md)
-  * [Billing rates](platform/billing/billing-rates.md)
-  * [Keeping track of costs](platform/billing/monitoring-costs.md)
-  * [Payments and credits](platform/billing/billing-and-credits.md)
-* [🥳 Changelog](platform/changelog.md)
-* [Collaboration](platform/team-collaboration.md)
+  * [Billing rates](platform/billing-rates.md)
+  * [Keeping track of costs](platform/supporting-workflows-1/monitoring-costs.md)
+  * [Payments and credits](platform/supporting-workflows-1/billing-and-credits.md)
+* [Collaboration](platform/upgrades/team-collaboration.md)
 * [Custom Cloud Credentials](platform/custom-cloud-credentials/README.md)
   * [Cluster Context](platform/custom-cloud-credentials/cluster-context.md)
-  * [Creating a New Cluster](platform/custom-cloud-credentials/adding-custom-cloud-credentials.md)
-* [Report Feedback](platform/report-issues.md)
+  * [Creating a New Cluster](platform/upgrades/adding-custom-cloud-credentials.md)
+* [Report Feedback](platform/report-issues/README.md)
 * [Tips & Tricks](platform/tips-and-tricks.md)
 * [Security & Privacy](platform/security-and-privacy.md)
 * [Single Sign-On (SSO)](platform/sso.md)

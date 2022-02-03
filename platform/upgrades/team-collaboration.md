@@ -2,7 +2,7 @@
 description: Collaboration Feature in Grid
 ---
 
-# Team Collaboration
+# Collaboration
 
 When running machine learning workflows, it is beneficial to share and collaborate with fellow
 
@@ -19,7 +19,7 @@ Please note: Adding users and credits is not a self-service functionality at thi
 **Grid.ai needs the following from you to enable collaboration features:**
 
 1. Name of the team: What should the team be called
-2. &#x20;Roles: Soon we will have an admin and owner designation, indicate person that would be admin and owner; currently everyone is a user
+2. Roles: Soon we will have an admin and owner designation, indicate person that would be admin and owner; currently everyone is a user
 3. User names (email address or Github username )that will use the collaboration feature as part of a team
    1. Please make sure they are registered to use the Grid platform
    2. They will need to register the same way as an individual user; using the grid.ai website and perform credit card verification when using GPUs
@@ -36,7 +36,7 @@ You don't have to do anything special to enable it.
 
 Start a session or run or create datastore as you would normally in the Grid platform, per docs:
 
-https://docs.grid.ai/start-here/typical-workflow-cli-user&#x20;
+https://docs.grid.ai/start-here/typical-workflow-cli-user
 
 or
 

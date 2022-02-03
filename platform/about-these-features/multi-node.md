@@ -9,7 +9,7 @@ description: >-
 Multi-node or distributed training allows you to train a single model across more than one machine.
 
 {% hint style="info" %}
-**Note:** At this time multi-node training is only supported for the Lightning framework.&#x20;
+**Note:** At this time multi-node training is only supported for the Lightning framework.
 {% endhint %}
 
 Early access to multi-node is now available, send us a message on community slack: gridai-community.slack.com or email at support@grid.ai with feedback
