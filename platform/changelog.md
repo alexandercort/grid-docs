@@ -2,11 +2,17 @@
 description: What's new and improved in Grid.
 ---
 
-# 🥳 Releases
+# 🥳 Release Updates
 
 {% hint style="info" %}
-**Archived release notes can be found on** [**this page**](https://github.com/gridai/gridai/discussions) **in Github.**&#x20;
+**Archived release notes can be found on** [**this page**](https://github.com/gridai/gridai/discussions) **in Github.**
 {% endhint %}
+
+## :warning: February 3, 2022
+
+**Artifacts are not syncing for short-running experiments**
+
+We've detected a race condition with short-running experiments which may cause artifacts not to be properly synced. We're working on a long-term solution for this, and will be fixed in the coming days. As a workaround, we recommend ensuring your experiments last at least a minute (to be safe), and sleep if needed.
 
 ## :wrench:January 12, 2022
 
@@ -18,19 +24,15 @@ A maintenance release has been issued with the following :
 * fixes issue where Datastores and Runs couldn’t be viewed from the UI
 * addresses an issue with Multinode Runs that were not running
 
-### Cluster Contexts &#x20;
+### Cluster Contexts
 
 For users **B**ringing **Y**our **O**wn **C**loud, we've introduced the concept of cluster contexts. You can set the cluster context so that all your CLI actions (including creation of a resource such as Run or Session) are made against that cluster.
 
-By default, the cluster context is set to the global cluster. You can change the context at anytime  by using the command: `grid user set-cluster-context` or by specifying the cluster name in `~/.grid/settings.json.`
+By default, the cluster context is set to the global cluster. You can change the context at anytime by using the command: `grid user set-cluster-context` or by specifying the cluster name in `~/.grid/settings.json.`
 
 Find out which cluster context is currently set by using the `grid user`command.
 
 More information in the documentation on how to '[Run Workloads in Your New Cluster](https://docs.grid.ai/platform/upgrades/adding-custom-cloud-credentials#step-6-run-your-workloads-in-your-new-cluster)'.
-
-
-
-
 
 ## :partying\_face:January 5, 2022
 
@@ -81,7 +83,7 @@ Specify a public S3 bucket, file, or path when creating a new Datastore.
 _Note:_ **Private S3 buckets are coming soon!**
 {% endhint %}
 
-#### ****:star: **Datastore Mount Path**
+#### \*\*\*\*:star: **Datastore Mount Path**
 
 And the award for top FAQ goes to...
 
@@ -105,6 +107,6 @@ More details on how to mount datastores:
 
 ![](<../.gitbook/assets/Untitled (1).png>)
 
-``
+\`\`
 
 ##
