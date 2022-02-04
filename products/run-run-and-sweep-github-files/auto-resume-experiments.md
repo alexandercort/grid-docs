@@ -31,6 +31,13 @@ The lifecycle of a resumable experiment is as follows:
 
 ### How to use it?
 
+**Prerequisites**\
+****In order for experiments to resume from last checkpoint, the following prerequisites must be met:
+
+* On interruption the process shall receive signal SIGTERM
+* The process needs to save checkpoint and exit with status code 0
+* On resuming we'll restore all artifacts and code is responsible for resuming from last checkpoint in the file system
+
 #### CLI
 
 Use `--auto_resume` flag to indicate this experiment is safe to resume.
